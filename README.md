@@ -1,27 +1,51 @@
 # food_meister
-## 当該アプリケーションは、出産予定または出産後のママさんに役立つ情報を配信するアプリケーションである。
+ -概要
+  -当該アプリケーションは、出産予定または出産後のママさんに役立つ情報を配信するアプリケーションである。
+
+ -詳細
+  -妊娠期情報
+   --*妊婦さん向けの献立レシピ
+   --妊婦さん体操
+   --妊娠＆出産準備リスト
+   --将来設計
+  -授乳期情報
+   --授乳のはなし
+   --ミルクの作り方＆月齢ごとの量
+   --すくすくQ＆A～授乳期編～
+  -離乳食情報
+   --離乳食の進め方
+   --離乳食レシピ
+   --動画でわかる離乳食の基本
+   --おやつレシピ
+   --すくすくQ＆A～離乳食編～
+
+# DEMO
 
  
-# DEMO
- ![](file:///C:/Users/seiya/Downloads/75bbfc9be2326fed632290449acaa2e4.gif)
- 
 # Features
- 
-"hoge"のセールスポイントや差別化などを説明する
+
+ママ向けの情報発信サイトは多数あるが本アプリケーションの特徴は、離乳食の献立サイクル（１週間分）を１ページで閲覧できる仕様にしてあるため都度検索をして献立を知らべなくてもバランスの良い献立を素早く手軽に閲覧することが出きる。
  
 # Requirement
  
-"hoge"を動かすのに必要なライブラリなどを列挙する
- 
-* huga 3.5.2
-* hogehuga 1.0.2
+*ruby 2.4.6
  
 # Installation
- 
-Requirementで列挙したライブラリなどのインストール方法を説明する
- 
+-macOS:
 ```bash
-pip install huga_package
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install ruby
+```
+-Windows:
+ --RubyInstallerの公式ウェブサイト（https://rubyinstaller.org/）にアクセスします。
+ --ページ上部にある「Ruby+Devkit」をクリックして、最新のバージョンをダウンロードします。
+ --ダウンロードしたインストーラを実行し、指示に従ってRubyをインストールします。
+
+-Linux:
+ --Ubuntu / Debian:
+```bash
+sudo apt update
+sudo apt install ruby
 ```
  
 # Usage
@@ -39,18 +63,13 @@ python demo.py
 注意点などがあれば書く
  
 # Author
- 
-作成情報を列挙する
- 
-* 作成者
-* 所属
-* E-mail
+
+* miyamoto
+* free
+* Twitter : https://twitter.com/food_meister
  
 # License
 ライセンスを明示する
  
 "hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
  
-社内向けなら社外秘であることを明示してる
- 
-"hoge" is Confidential.

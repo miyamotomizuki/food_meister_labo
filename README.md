@@ -1,24 +1,55 @@
-# アプリ名：Food Meister Labo
-## 環境
-
-- Language：Swift
-- Version：5.7.1
-- Xcode：13.4
-- URL：[App Store](http://example.com) 
-- Architecture：MVVM
-
-### ライブラリ
-
-1. Cocoa Pods
-2. Realm Swift
-3. Firebase Analytics
-
-## アプリの概要
-
-## アプリの使い方
-
-## 開発したきっかけ
-
-## 使用した技術
-
-## リファレンス
+# food_meister
+ 当該アプリケーションは、出産予定または出産後のママさんに役立つ情報を配信するアプリケーションである。
+ 
+# DEMO
+ ![](file:///C:/Users/seiya/Downloads/75bbfc9be2326fed632290449acaa2e4.gif)
+ 
+# Features
+ 
+"hoge"のセールスポイントや差別化などを説明する
+ 
+# Requirement
+ 
+"hoge"を動かすのに必要なライブラリなどを列挙する
+ 
+* huga 3.5.2
+* hogehuga 1.0.2
+ 
+# Installation
+ 
+Requirementで列挙したライブラリなどのインストール方法を説明する
+ 
+```bash
+pip install huga_package
+```
+ 
+# Usage
+ 
+DEMOの実行方法など、"hoge"の基本的な使い方を説明する
+ 
+```bash
+git clone https://github.com/hoge/~
+cd examples
+python demo.py
+```
+ 
+# Note
+ 
+注意点などがあれば書く
+ 
+# Author
+ 
+作成情報を列挙する
+ 
+* 作成者
+* 所属
+* E-mail
+ 
+# License
+ライセンスを明示する
+ 
+"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+ 
+社内向けなら社外秘であることを明示してる
+ 
+"hoge" is Confidential.

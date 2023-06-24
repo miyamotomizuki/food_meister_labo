@@ -3,18 +3,18 @@
  当該アプリケーションは、出産予定または出産後のママさんに役立つ情報を配信するアプリケーションである。
 
 ## 詳細
-## 妊娠期情報
+### 妊娠期情報
 * 妊婦さん向けの献立レシピ
 * 妊婦さん体操
 * 妊娠＆出産準備リスト
 * 将来設計
 
-## 授乳期情報
+### 授乳期情報
 * 授乳のはなし
 * ミルクの作り方＆月齢ごとの量
 * すくすくQ＆A～授乳期編～
 
-## 離乳食情報
+### 離乳食情報
 * 離乳食の進め方
 * 離乳食レシピ
 * 動画でわかる離乳食の基本
@@ -38,10 +38,12 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install ruby
 ```
+
 * Windows:
 1. RubyInstallerの公式ウェブサイト（https://rubyinstaller.org/）にアクセスします。
 2. ページ上部にある「Ruby+Devkit」をクリックして、最新のバージョンをダウンロードします。
 3. ダウンロードしたインストーラを実行し、指示に従ってRubyをインストールします。
+
 
 * Linux(Ubuntu / Debian)
 ```bash

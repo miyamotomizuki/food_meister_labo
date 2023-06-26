@@ -51,6 +51,5 @@ sudo apt install ruby
 
 # Author
 
-* miyamoto
-* free
-* Twitter : https://twitter.com/food_meister
+* Name:miyamoto
+* Affiliation:free

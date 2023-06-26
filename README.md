@@ -2,6 +2,8 @@
 ## 概要
  当該アプリケーションは、出産予定または出産後のママさんに役立つ情報を配信するアプリケーションである。
  URL:https://food-meister-labo.onrender.com
+ ID:admin
+ PAss:2222
 
 ## 詳細
 ### 妊娠期情報

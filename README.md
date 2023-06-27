@@ -1,11 +1,17 @@
-# food_meister
-## 概要
- 当該アプリケーションは、出産予定または出産後のママさんに役立つ情報を配信するアプリケーションである。
- URL:https://food-meister-labo.onrender.com
- ID:admin
- PAss:2222
+# アプリケーション名
+Food_meister_labo
 
-## 詳細
+# 概要
+ 当該アプリケーションは、出産予定または出産後のママさんに役立つ情報を配信するアプリケーションである。主に妊娠期、授乳期、離乳食期に関する情報を発信する。
+ 
+# URL
+https://food-meister-labo.onrender.com
+
+### Basic認証
+* ID:admin
+* Pass:2222
+
+# 詳細
 ### 妊娠期情報
 * 妊婦さん向けの献立レシピ
 * 妊婦さん体操
@@ -24,34 +30,62 @@
 * おやつレシピ
 * すくすくQ＆A～離乳食編～
 
-# Features
+# 利用方法
 
-ママ向けの情報発信サイトは多数あるが本アプリケーションの特徴は、離乳食の献立サイクル（１週間分）を１ページで閲覧できる仕様にしてあるため都度検索をして献立を知らべなくてもバランスの良い献立を素早く手軽に閲覧することが出きる。
+* トップ画面上部(一覧ページ)のタブ一覧から妊娠期情報・授乳期情報・離乳食期情報を選択する。
+* 各情報の上にカーソルを乗せるとプルダウンメニューが表示され詳細情報を選択する。
+* トップ画面下部には、ピックアップ情報を記載。
  
-# Requirement
- 
-*ruby 2.4.6
- 
-# Installation
-* macOS:
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install ruby
-```
-
-* Windows:
-1. RubyInstallerの公式ウェブサイト（https://rubyinstaller.org/）にアクセスします。
-2. ページ上部にある「Ruby+Devkit」をクリックして、最新のバージョンをダウンロードします。
-3. ダウンロードしたインストーラを実行し、指示に従ってRubyをインストールします。
+# 背景
+自身も１児の母親であり、子育てに関する総合情報提供サイトの重要性を実感した。
+前職での管理栄養士経験を活かし、管理栄養士の視点から食事に関する情報発信をすることでユーザの信頼も得やすい。また、相談できるコミュニティを設けることで育児による孤立感やストレス軽減に繋がるのではないかと考えた。
 
 
-* Linux(Ubuntu / Debian)
-```bash
-sudo apt update
-sudo apt install ruby
-```
+# 洗い出した要件
 
-# Author
+# 実装予定機能
+* ユーザー管理機能
+* 検索機能(インクリメンタルサーチの実装)
+* 詳細表示
+  - 妊娠期情報
+    - 妊婦さん向けの献立レシピ一覧
+    - 妊婦さん体操
+    - 妊娠＆出産準備リスト
+  -  授乳期情報
+      - 授乳のはなし
+      - ミルクの作り方＆月齢ごとの量
+      - すくすくQ＆A～授乳期編～
+  -  離乳食情報
+     - 離乳食の進め方
+     - 離乳食レシピ
+     - すくすくQ＆A～離乳食編～
+  -  食材チェックリスト（チェックボックス機能）
+  -  離乳食の基本（動画挿入）
+* 「いいね！」機能実装
 
-* Name:miyamoto
-* Affiliation:free
+# 開発環境
+* HTML/CSS
+* ruby
+* JavaScript/jQuery
+* Visual Studio Code
+* Github
+* MySQL
+
+# ローカル環境での動作方法
+以下のコマンドを実行
+
+% git clone https://github.com/miyamotomizuki/food_meister_labo.git
+
+%cd food_meister_labo
+
+%bundle install
+
+%yarn install
+
+
+
+
+# 工夫したポイント
+* ブラウザの装飾
+
+JavaScriptを使用してドロップダウンリストやスライドショーを組み込むなどユーザ目線で見やすさにこだわりました。

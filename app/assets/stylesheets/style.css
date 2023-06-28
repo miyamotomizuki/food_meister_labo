@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* =Reset default browser CSS.
 Based on work by Eric Meyer:http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
@@ -50,17 +52,15 @@ width:100%;
 /* ヘッダー
 *************/
 #header{
-height:10px;
+height: 50px;
 }
 
 #header h1{
 padding:5px 0 10px;
-font-size:30px;
+font-size:20px;
 font-weight:normal;
 color: crimson;
 }
-
-
 
 /*************
 /* ロゴ
@@ -104,6 +104,7 @@ font-size:.6em;
 font-weight:normal;
 }
 
+
 /**************************
 /* メイン画像（トップページ+サブページ）
 **************************/
@@ -116,9 +117,10 @@ text-align:center;
 }
 #mainBanner .inner{position:relative;}
 
-#mainBanner img{
+.top-icon{
 max-width:100%;
 height:auto;
+text-align:center;
 }
 
 .slogan{
@@ -128,21 +130,17 @@ position:absolute;
 max-width:100%;
 height:auto;
 bottom:42%;
-left:170px;
+left:40px;
 padding:5px 10px;
 line-height:1.4;
 text-align:center;
 }
-	
+
 .slogan h1{
 padding-bottom:5px;
-font-size:40px;
+font-size:50px;
 }
 
-.top-icon{
-height:auto;
-max-width: 100%;
-}
 
 /**************************
 /* グリッド
@@ -201,31 +199,18 @@ section.toppage article,section.content .archive{border:0;}
 /* アーカイブページ */
 section.content .archive{
 padding:0;
-border-bottom:1px dotted #f02929;
+border-bottom:1px dotted #ccc;
 }
 
 section.content p{margin-bottom:5px;}
-
-h2.heading{
-font-size:16px;
-font-weight:normal;
-padding:15px 0px 15px 10px;
-margin-bottom:5px;
-border-top:2px solid #ebebeb;
-border-bottom:2px solid #ebebeb;
-font-weight:bold;
-background-color: rgb(252, 104, 153);
-color: #F5F5F5;
-}
 
 h3.heading{
 font-size:16px;
 font-weight:normal;
 padding:15px 0;
 margin-bottom:5px;
+border-top:2px solid #ebebeb;
 border-bottom:2px solid #ebebeb;
-font-weight:bold;
-color: crimson;
 }
 
 section.content img{
